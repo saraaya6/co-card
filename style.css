@@ -1,0 +1,67 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 40px;
+}
+.card{
+    background-color: rgb(192, 223, 233);
+    border: solid 1px;
+    border-radius: 15px;
+    padding: 20px;
+    margin: auto;
+
+}
+img{
+    border-radius: 16px;
+    margin-bottom: 10px;
+}
+.name{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+}
+.job{
+    margin-top: 10px;
+    font-weight: bold;
+}
+.majores-container {
+    margin-top: 10px;
+    list-style-type: none;
+    background-color: rgb(220, 228, 231);
+    border-radius: 10px;
+    padding: auto;
+    margin-bottom: auto;
+}
+
+.table{
+    align-content: center;
+    border-collapse: collapse; /* أهم خاصية! لدمج الحدود وجعلها خطاً واحداً */
+    text-align: center; /* محاذاة النص لليسار بشكل افتراضي */
+    width: 80%; /* حدد عرض الحاوية */
+    margin: 30px auto; /* 30px من الأعلى والأسفل و auto لجعله في المنتصف */
+    box-shadow: 0 4px 8px rgba(60, 145, 209, 0.889); /* ظل خفيف لإعطاء عمق */
+    border-radius: 8px; /* حواف دائرية للحاوية */
+    overflow: hidden; /* لإخفاء أي زوائد عند تطبيق الحواف الدائرية على الجدول */
+}
+.links{
+    margin-top: 15px;
+    padding:10px;
+    background-color: rgb(21, 12, 144);
+    width: 50%;
+    border-radius: 13px;
+}
+.links a{
+    text-decoration:none;
+    color: #ffffff;
+    font-size: small;
+    font-style: italic; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    padding: 1px; 
+}
